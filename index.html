@@ -11,10 +11,11 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
 	<title>Astro Júpiter</title>
 </head>
 
-<body style="background-color: #5c599e; font-family: 'Montserrat', sans-serif;">
+<body>
 	<!-- BANNER TOPO -->
 	<div class="container">
 		<img src="img/banner-topo.jpg" alt="Banner Topo" class="img-fluid">
@@ -22,7 +23,7 @@
 		<!-- FIM BANNER TOPO -->
 
 		<!-- MENU -->
-		<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #04021b;">
+		<nav class="navbar navbar-expand-lg navbar-dark corDeFundo">
 			<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" class="fluid"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
 				aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -36,7 +37,7 @@
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #f19b2c;">
 							Astrologia
 						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #04021b;">
+						<div class="dropdown-menu corDeFundo" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="mapa-astral.html" style="color: #f19b2c;">Mapa Astral</a>
 							<a class="dropdown-item" href="signos.html" style="color: #f19b2c;">Signos</a>
 							<a class="dropdown-item" href="posts.html" style="color: #f19b2c;">Postagens</a>
@@ -119,9 +120,9 @@
 	<!-- CARTÕES -->
 	<div class="container">
 		<div class="card-deck mt-3">
-			<div class="card border-warning" style="background-color: #04021b;">
+			<div class="card border-warning corDeFundo">
 				<img class="card-img-top fluid" src="img/astrologia.png" alt="Júpiter e Netuno">
-				<div class="card-body" style="color: #f19b2c;">
+				<div class="card-body corDaFonteAmarela">
 					<h5 class="card-title font-weight-bold text-center">Júpiter e Netuno</h5>
 					<p class="card-text text-justify">Júpiter ou Zeus, é o Deus do Olimpo. Conta o mito que Júpiter
 						destronou seu pai Saturno e assumiu seu lugar como deus dos deuses. Existia uma
@@ -132,11 +133,11 @@
 					</p>
 				</div>
 			</div>
-			<div class="card border-warning" style="background-color: #04021b;">
+			<div class="card border-warning corDeFundo">
 				<img class="card-img-top fluid" src="img/autoconhecimento.png" alt="Quíron na mitologia">
-				<div class="card-body" style="color: #f19b2c;">
+				<div class="card-body corDaFonteBranca">
 					<h5 class="card-title font-weight-bold text-center">Quíron na mitologia</h5>
-					<p class="card-text text-justify" style="color: #f19b2c;">Dentro da mitologia, Quíron era um centauro. Filho de Cronos
+					<p class="card-text text-justify corDaFonteBranca">Dentro da mitologia, Quíron era um centauro. Filho de Cronos
 						(Saturno) e uma ninfa, Filira. Para enganar sua esposa, Cronos se transformou em cavalo para ter
 						com a ninfa, e o fruto desta união foi Quíron, metade cavalo e metade humano.</p>
 					<p class="card-text text-center"><a class="btn btn-primary" href="posts.html" role="button"
@@ -144,9 +145,9 @@
 					</p>
 				</div>
 			</div>
-			<div class="card border-warning" style="background-color: #04021b;">
+			<div class="card border-warning corDeFundo">
 				<img class="card-img-top fluid" src="img/mitologia.png" alt="Quíron, o curador ferido">
-				<div class="card-body" style="color: #f19b2c;">
+				<div class="card-body corDaFonteBranca">
 					<h5 class="card-title font-weight-bold text-center">Quíron, o curador ferido</h5>
 					<p class="card-text text-justify">Quíron é um asteroide (com comportamento de cometa) descoberto em
 						1977, localizado entre Saturno e Urano. Dentro da Astrologia ele estaria
@@ -163,17 +164,17 @@
 	<!-- CARTÕES 2 -->
 	<div class="container mt-3">
 		<div class="card-deck">
-			<div class="card border-warning" style="background-color: #04021b;">
+			<div class="card border-warning corDeFundo">
 				<img class="card-img-top fluid" src="img/logo-card.jpg" alt="Astro Júpiter">
 				<div class="card-body">
-					<p class="card-text text-justify" style="color: #f19b2c;">O site Astro Júpiter visa proporcionar ferramentas de
+					<p class="card-text text-justify corDaFonteBranca">O site Astro Júpiter visa proporcionar ferramentas de
 						autoconhecimento com enfoque na Astrologia, mas abordando diversas ferramentas com linguagem
 						simples e acessível. Os conteúdos disponibilizados por nós são exclusivos e pensados para quem
 						está iniciando seus conhecimentos de Astrologia.</p>
 				</div>
 			</div>
-			<div class="card border-warning" style="background-color: #04021b;">
-				<div class="card-body text-center" style="color: #f19b2c;">
+			<div class="card border-warning corDeFundo">
+				<div class="card-body text-center corDaFonteBranca">
 					<h5 class="card-title font-weight-bold">Carta da Sorte</h5>
 					<img src="img/tarot1.jpg" class="fluid" alt="Tarot" id="carta">
 					<p id="texto" class="mt-1 text-justify"></p>
@@ -181,7 +182,7 @@
 					</script>
 				</div>
 			</div>
-			<div class="card border-warning" style="background-color: #04021b;">
+			<div class="card border-warning corDeFundo">
 				<div class="card-body mx-auto">
 					<p>
 						<script src="https://sadhana.com.br/cgi-local/mapas/ceu.js"></script>
@@ -224,7 +225,7 @@
 	<!-- Grid container -->
 
 	<!-- Copyright -->
-	<div class="text-center text-dark p-3 font-weight-bold" style="background-color: rgba(0, 0, 0, 0.1);">
+	<div class="text-center text-dark p-3 font-weight-bold fundoRodape">
 		<p class="text-dark">© 2022 Copyright: Astro Júpiter</p>
 	</div>
 	<!-- Copyright -->
