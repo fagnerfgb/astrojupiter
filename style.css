@@ -18,3 +18,7 @@ body{
 .fundoRodape{
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.lista{
+    margin-top: 3em;
+}
